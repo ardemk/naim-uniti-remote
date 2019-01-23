@@ -14,7 +14,7 @@ The provided code has to be used in a Home Assistant environment.
 
 Are provided the entries for the configuration.yaml as well as the automation.yaml
 
-These entries have just to be incorporated into your respective files with modifying the IP adress of your Uniti device.
+These entries have just to be copied into your respective files (do not forget to modify the IP adress of your Uniti device).
 
 # How does it work?
 
