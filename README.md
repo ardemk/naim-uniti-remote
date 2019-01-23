@@ -19,6 +19,7 @@ These entries have just to be incorporated into your respective files with modif
 # How does it work?
 
 The raspberry will send the commands via HTTP requests to the Naim Uniti device through shell commands (su not needed).
+With the provided code, the "on" command to the Uniti is triggered when harmony state goes from "off" to "on", and turned off with the way around.
 
 # Known issues
 
