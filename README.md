@@ -32,3 +32,5 @@ I've written two python scripts as a workaround to the previous issue :
 - One that reads the txt file and sets the volume as it was initially and then turns off the Uniti.
 
 Unfortunately, I am still unable to automate their execution through shell commands via automation.yaml (error code 2 in the console).
+
+Note: the python scripts require certifi, chardet, requests and urllib3 to execute.
