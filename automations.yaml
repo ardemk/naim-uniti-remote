@@ -1,0 +1,24 @@
+- alias: turn on uniti when harmony on
+  hide_entity: false
+  trigger:
+    platform: state
+    entity_id: remote.harmonyhub   
+    from: 'off'
+    to: 'on'
+  action:    
+    - service: shell_command.uniti_analog
+#    - delay: 00:00:10
+#    - service: shell_command.volumeset
+
+- alias: turn off uniti when harmony on
+  hide_entity: false
+  trigger:
+    platform: state
+    entity_id: remote.harmonyhub   
+    from: 'on'
+    to: 'off'
+  action:    
+#    - service: shell_command.volumereset
+#    - delay: 00:00:05
+    - service: shell_command.uniti_off
+    

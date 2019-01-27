@@ -1,0 +1,7 @@
+shell_command:
+  uniti_on: "/usr/bin/curl -X PUT http://10.0.0.17:15081/power?system=on"
+  uniti_off: "/usr/bin/curl -X PUT http://10.0.0.17:15081/power?system=lona"
+  uniti_analog: "/usr/bin/curl -X GET http://10.0.0.17:15081/inputs/ana1?cmd=select"
+  uniti_vol75: "/usr/bin/curl -X PUT http://10.0.0.17:15081/levels/room?volume=75"
+  volumeset: "python ./home/homeassistant/python_scripts/volumeset.py"
+  volumereset: "python ./home/homeassistant/python_scripts/volumereset.py"
